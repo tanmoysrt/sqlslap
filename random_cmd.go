@@ -24,13 +24,3 @@ var randomCmd = &cobra.Command{
 		cmd.Help()
 	},
 }
-
-var randomUpdateCmd = &cobra.Command{
-	Use:   "update",
-	Short: "Update random data",
-	Run: func(cmd *cobra.Command, args []string) {
-		cmd.Help()
-	},
-}
-
-// ---------------------- Functions ----------------------
