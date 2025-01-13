@@ -25,14 +25,6 @@ var randomCmd = &cobra.Command{
 	},
 }
 
-var randomDeleteCmd = &cobra.Command{
-	Use:   "delete",
-	Short: "Delete random data",
-	Run: func(cmd *cobra.Command, args []string) {
-		cmd.Help()
-	},
-}
-
 var randomUpdateCmd = &cobra.Command{
 	Use:   "update",
 	Short: "Update random data",

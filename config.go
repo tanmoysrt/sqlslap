@@ -34,9 +34,7 @@ type Table struct {
 
 type Column struct {
 	Name       string `yaml:"name"`
-	Type       string `yaml:"type"`
 	PrimaryKey bool   `yaml:"primary_key,omitempty"`
-	Nullable   bool   `yaml:"nullable,omitempty"`
 	Generator  string `yaml:"generator,omitempty"`
 }
 
